@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(178, 178, 252);
+}
+
+.container{
+    width: 690px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.wrapper{
+    border-radius: 5px;
+    border: 1px solid aliceblue;
+}
+.wrapper .text-input{
+    display: flex;
+    border-bottom: 1px solid #bbb;
+}
+
+.text-input .to-text{
+    border-radius: 0px;
+    border-left: 1px solid #bbb;
+}
+
+.text-input textarea{
+    height: 250px;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 18px;
+    border-radius: 5px;
+    background: none;
+    padding: 10px 15px;
+}
+
+.controls{
+    list-style: none;
+    padding: 12px 15px;
+}
+
+.controls .row.from .icons{
+    padding-right: 15px;
+    border-right: 1px solid #bbb;
+}
+
+.controls .row.to .icons{
+    padding-left: 15px;
+    border-left: 1px solid #bbb;
+}
+
+.controls, li, .icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.controls .icons{
+    width: 38%;
+}
+.controls .icons i{
+    width: 50px;
+    color: rgb(147, 137, 137);
+    font-size: 14px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.controls .row select{
+    border: none;
+   outline: none;
+    font-size: 20px;
+    background: none;
+}
+/* koden för pilen i mitten */
+.controls .exchange{
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+}
+
+.container button{
+    width: 100%;
+    font-size: 20px;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    background: rgb(190, 172, 244);
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.grace1 {
+    margin-bottom: 30px;
+   font-size: 50px;
+   color: rgb(16, 17, 18);
+   text-align: center;
+   
+}
+
+
